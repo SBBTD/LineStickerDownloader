@@ -50,7 +50,7 @@ Write-Host -ForegroundColor Green "所有下载操作已完成"
 
 [Microsoft.VisualBasic.Interaction]::MsgBox("等待下载完成点击是", "YesNo,Information", "等待下载完成")
 
-#动图的后续处理
+#动图的后续处理步骤
 if($ImgType -eq 2){
     Write-Host -ForegroundColor Green "`n(2)apng转换为gif..."
     $GIFPATH = $PNGPATH + "gifs_" + $StartNum + "\"
