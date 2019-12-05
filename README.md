@@ -5,7 +5,7 @@ LineStickerDownloader
 
 采用`Powershell`语言。
 
-使用方法
+使用方法 Usage
 --------
 
 1. 在line store贴图`详情`界面`右击第一张贴图`，选择`审查元素（检查）`。
@@ -14,7 +14,7 @@ LineStickerDownloader
 
 ![](images/img1.jpg)
 
-3. 右键脚本文件，选择`使用powershell运行`
+3. 右键脚本文件`Line贴图下载.ps1`，选择`使用powershell运行`
 
 4. 按照提示填入刚才获得的第一张贴图ID，最后一张贴图ID等
 
